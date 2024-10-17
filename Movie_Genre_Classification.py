@@ -19,10 +19,10 @@ nltk.download('stopwords', force=True)
 nltk.download('punkt', force=True, download_dir='E:/Python/nltk_data')
 
 # File paths for the datasets
-train_data_file = 'E:/Internship/internship hemachandra/Movie_Genre_Classification/Genre Classification Dataset/train_data.txt'
-test_data_file = 'E:/Internship/internship hemachandra/Movie_Genre_Classification/Genre Classification Dataset/test_data.txt'
-solution_file = 'E:/Internship/internship hemachandra/Movie_Genre_Classification/Genre Classification Dataset/test_data_solution.txt'
-output_file = 'E:/Internship/internship hemachandra/Movie_Genre_Classification/test_data_with_predictions.txt'
+train_data_file = 'Your Dataset Path'
+test_data_file = 'Your Dataset Path'
+solution_file = 'Your Dataset Path'
+output_file = 'Your Dataset Path'
 
 # Load the training data with the correct delimiter
 train_data = pd.read_csv(train_data_file, delimiter=' ::: ', engine='python', header=None)
